@@ -14,7 +14,7 @@
       in
       {
         packages = {
-          libcurl-example = import ./termdbms pkgs;
+          termdbms = import ./termdbms pkgs;
         };
       };
     in flake-utils.lib.eachDefaultSystem out;
